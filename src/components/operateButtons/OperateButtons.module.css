@@ -1,0 +1,12 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.list li {
+  @apply py-2 border-b-[0.5px] cursor-pointer;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.list li:last-child {
+  border: none;
+}

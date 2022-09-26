@@ -1,0 +1,11 @@
+.bolb {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-color: #e5e5e5;
+  border-radius: 50%;
+  left: 50%;
+  top: 200px;
+  transform: translateX(-50%);
+  filter: blur(150px);
+}
